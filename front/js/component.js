@@ -8,6 +8,7 @@ Component.prototype.init = function() {
 
 Component.prototype.getDOMElement = function() {
   return document.querySelector(this.selector);
+  console.log("Component: " + this.selector + " initialized");
 };
 
 Component.prototype.render = function() {
